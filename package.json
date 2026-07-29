@@ -1,0 +1,40 @@
+{
+  "type": "module",
+  "name": "url-shortener-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "shx cp container.js dist/container.js && node ./dist/index.js",
+    "dev": "npx tsc && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeverSpot/URL-shortener-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/NeverSpot/URL-shortener-/issues"
+  },
+  "homepage": "https://github.com/NeverSpot/URL-shortener-#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "shx": "^0.4.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.1",
+    "redis": "^5.11.0",
+    "reflect-metadata": "^0.2.2",
+    "tsyringe": "^4.10.0",
+    "zod": "^4.3.6"
+  }
+}
