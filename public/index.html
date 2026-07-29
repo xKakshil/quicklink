@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SnapLink | Fast URL Shortener</title>
+    <title>QuickLink | Fast URL Shortener</title>
     <meta
         name="description"
         content="Create short links instantly with a fast URL shortener powered by TypeScript, Express, MongoDB, and Redis."
@@ -21,29 +21,29 @@
     <header class="topbar">
         <a class="brand" href="/">
             <span class="brand-mark"></span>
-            <span>SnapLink</span>
+            <span>QuickLink</span>
         </a>
         <nav class="topbar-links">
             <a href="#features">Features</a>
             <a href="#api">API</a>
-            <a href="https://github.com/NeverSpot/URL-shortener-" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://github.com/xKakshil/quicklink" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
     </header>
 
     <main>
         <section class="hero">
             <div class="hero-copy">
-                <p class="eyebrow">TypeScript • Express • MongoDB • Redis</p>
-                <h1>Short links without the usual friction.</h1>
+                <p class="eyebrow">TypeScript • Express • MongoDB Atlas • Redis Cloud</p>
+                <h1>Fast, reliable URL shortening built for production.</h1>
                 <p class="hero-text">
                     Paste a long URL, generate a compact link, and redirect fast with Redis-backed lookups.
-                    Built as a clean service with layered architecture and dependency injection.
+                    Generate compact URLs instantly using a scalable backend powered by Express, MongoDB Atlas, and Redis Cloud. Designed with layered architecture and dependency injection for maintainability.
                 </p>
 
                 <div class="hero-metrics">
                     <div class="metric-card">
                         <span class="metric-label">API surface</span>
-                        <strong>3 routes</strong>
+                        <strong>REST API</strong>
                     </div>
                     <div class="metric-card">
                         <span class="metric-label">Validation</span>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="metric-card">
                         <span class="metric-label">Cache layer</span>
-                        <strong>Redis first</strong>
+                        <strong>Redis Cache</strong>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@
 
                 <aside class="signal-card">
                     <div class="signal-line"></div>
-                    <p class="signal-caption">Redirect flow</p>
+                    <p class="signal-caption">How QuickLink Works</p>
                     <ol>
                         <li>Validate input URL with Zod</li>
                         <li>Create a compact code</li>
@@ -135,7 +135,7 @@
         <section id="api" class="api-section">
             <div class="section-heading">
                 <p class="eyebrow">Minimal API</p>
-                <h2>Everything important fits on one screen.</h2>
+                <h2>Simple, clean REST API.</h2>
             </div>
 
             <div class="api-layout">
@@ -169,6 +169,9 @@
   -d '{"longUrl":"https://example.com"}'</code></pre>
         </section>
     </main>
+    <footer class="footer">
+    <p>© 2026 QuickLink • Built by <a href="https://github.com/xKakshil" target="_blank">Kakshil</a></p>
+</footer>
 </div>
 
 <script src="/app.js" defer></script>
