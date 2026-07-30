@@ -1,7 +1,7 @@
 # 🚀 QuickLink
 
 <p align="center">
-  <a href="https://quicklinkmhp8.onrender.com/health">
+  <a href="https://quicklink-8u9g.onrender.com/health">
     <img src="https://img.shields.io/badge/status-live-brightgreen" alt="Live">
   </a>
   <img src="https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript" alt="TypeScript">
@@ -20,7 +20,7 @@ A production-ready URL shortening service built with **TypeScript**, **Express**
 
 **Application:** https://quicklinkmhp8.onrender.com
 
-**Health Check:** https://quicklinkmhp8.onrender.com/health
+**Health Check:** https://quicklink-8u9g.onrender.com/health
 
 ---
 
@@ -191,7 +191,7 @@ http://localhost:3001
 Health Check
 
 ```bash
-curl https://quicklinkmhp8.onrender.com/health
+curl https://quicklink-8u9g.onrender.com/health
 ```
 
 Create Short URL
