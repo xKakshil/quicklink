@@ -18,7 +18,7 @@ A production-ready URL shortening service built with **TypeScript**, **Express**
 
 ## 🌐 Live Demo
 
-**Application:** https://quicklinkmhp8.onrender.com
+**Application:** https://quicklink-8u9g.onrender.com
 
 **Health Check:** https://quicklink-8u9g.onrender.com/health
 
